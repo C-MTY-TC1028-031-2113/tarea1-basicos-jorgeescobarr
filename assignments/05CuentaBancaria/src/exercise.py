@@ -6,7 +6,7 @@ def cuenta_bancaria():
     sf= (smm+ing-egr-(cheq*13))
     sf2= sf*0.075
     sf3= sf-sf2
-    print("el saldo final es: " + str(sf3))
+    print("el saldo final es:  " + str(sf3))
 
 cuenta_bancaria()
 
